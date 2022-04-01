@@ -42,7 +42,7 @@ namespace JimmysCatalog
         public string Name { get; set; }
         public int Issue { get; set; }
         public override string ToString() => $"{Name} (#{Issue})";
-
+          
         public static readonly IEnumerable<Comic> Catalog = new List<Comic>
         {
             new Comic { Name = "Johnny vs Pinko", Issue = 6},
