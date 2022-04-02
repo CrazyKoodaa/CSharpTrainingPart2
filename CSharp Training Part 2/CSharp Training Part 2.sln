@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp Training Part 2", "CSharp Training Part 2.csproj", "{FA7D2FBC-7C80-492D-9FF9-209745A22C17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp Training Part 2", "CSharp Training Part 2.csproj", "{FA7D2FBC-7C80-492D-9FF9-209745A22C17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqTest", "..\Chapter9\LinqTest\LinqTest.csproj", "{8E146938-2D29-4578-A404-686B8D542C40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqTest", "..\Chapter9\LinqTest\LinqTest.csproj", "{8E146938-2D29-4578-A404-686B8D542C40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JimmysCatalog", "..\Chapter9\JimmysCatalog\JimmysCatalog.csproj", "{D358B524-9BEB-40B5-B4E5-75AB334E3ED6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JimmysCatalog", "..\Chapter9\JimmysCatalog\JimmysCatalog.csproj", "{D358B524-9BEB-40B5-B4E5-75AB334E3ED6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayingAroundWithLinqVersatile", "..\Chapter9\PlayingAroundWithLinqVersatile\PlayingAroundWithLinqVersatile.csproj", "{1C56CD19-840F-4C5C-B4A3-8C58679D42FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayingAroundWithLinqVersatile", "..\Chapter9\PlayingAroundWithLinqVersatile\PlayingAroundWithLinqVersatile.csproj", "{1C56CD19-840F-4C5C-B4A3-8C58679D42FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardLinq", "..\Chapter9\CardLinq\CardLinq.csproj", "{C917942B-AF59-4D45-AA7E-85CCBAB55E93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqJoinAnonymousTypes", "..\Chapter9\LinqJoinAnonymousTypes\LinqJoinAnonymousTypes.csproj", "{A55A1661-E71F-4F50-A76A-35A98E7047AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{1C56CD19-840F-4C5C-B4A3-8C58679D42FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C56CD19-840F-4C5C-B4A3-8C58679D42FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C56CD19-840F-4C5C-B4A3-8C58679D42FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C917942B-AF59-4D45-AA7E-85CCBAB55E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C917942B-AF59-4D45-AA7E-85CCBAB55E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C917942B-AF59-4D45-AA7E-85CCBAB55E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C917942B-AF59-4D45-AA7E-85CCBAB55E93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A55A1661-E71F-4F50-A76A-35A98E7047AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A55A1661-E71F-4F50-A76A-35A98E7047AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A55A1661-E71F-4F50-A76A-35A98E7047AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A55A1661-E71F-4F50-A76A-35A98E7047AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
