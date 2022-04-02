@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardLinq", "..\Chapter9\Car
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqJoinAnonymousTypes", "..\Chapter9\LinqJoinAnonymousTypes\LinqJoinAnonymousTypes.csproj", "{A55A1661-E71F-4F50-A76A-35A98E7047AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jimmyLINQ", "..\Chapter9\jimmyLINQ\jimmyLINQ.csproj", "{4A730B90-05A7-4BC5-8BF4-AB4A7FB97498}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{A55A1661-E71F-4F50-A76A-35A98E7047AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A55A1661-E71F-4F50-A76A-35A98E7047AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A55A1661-E71F-4F50-A76A-35A98E7047AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A730B90-05A7-4BC5-8BF4-AB4A7FB97498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A730B90-05A7-4BC5-8BF4-AB4A7FB97498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A730B90-05A7-4BC5-8BF4-AB4A7FB97498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A730B90-05A7-4BC5-8BF4-AB4A7FB97498}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

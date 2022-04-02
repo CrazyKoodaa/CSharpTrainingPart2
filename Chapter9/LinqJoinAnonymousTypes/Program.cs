@@ -38,7 +38,7 @@ namespace LinqJoinAnonymousTypes
                     GlobalRank = player.GlobalRank,
                     Round = win.Round,
                     Winnings = win.Winnings,
-                };
+                }; 
 
             foreach (var player in playerStats)
                 Console.WriteLine(player);
