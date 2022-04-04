@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace jimmyLINQ
 {
-    class Review
+    public class Review
     {
         public int Issue { get; set; }
         public Critics Critic { get; set; }

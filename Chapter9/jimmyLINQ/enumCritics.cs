@@ -2,9 +2,10 @@
 
 namespace jimmyLINQ
 {
-    enum Critics
+
+    public enum Critics
     {
         MuddyCritic,
-        RottenTornatdoes,
+        RottenTornadoes,
     }
 }

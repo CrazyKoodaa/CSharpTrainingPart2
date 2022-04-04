@@ -11,11 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JimmysCatalog", "..\Chapter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayingAroundWithLinqVersatile", "..\Chapter9\PlayingAroundWithLinqVersatile\PlayingAroundWithLinqVersatile.csproj", "{1C56CD19-840F-4C5C-B4A3-8C58679D42FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardLinq", "..\Chapter9\CardLinq\CardLinq.csproj", "{C917942B-AF59-4D45-AA7E-85CCBAB55E93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardLinq", "..\Chapter9\CardLinq\CardLinq.csproj", "{C917942B-AF59-4D45-AA7E-85CCBAB55E93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqJoinAnonymousTypes", "..\Chapter9\LinqJoinAnonymousTypes\LinqJoinAnonymousTypes.csproj", "{A55A1661-E71F-4F50-A76A-35A98E7047AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqJoinAnonymousTypes", "..\Chapter9\LinqJoinAnonymousTypes\LinqJoinAnonymousTypes.csproj", "{A55A1661-E71F-4F50-A76A-35A98E7047AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jimmyLINQ", "..\Chapter9\jimmyLINQ\jimmyLINQ.csproj", "{4A730B90-05A7-4BC5-8BF4-AB4A7FB97498}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jimmyLINQ", "..\Chapter9\jimmyLINQ\jimmyLINQ.csproj", "{4A730B90-05A7-4BC5-8BF4-AB4A7FB97498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JimmyLinqUnitTests", "..\Chapter9\JimmyLinqUnitTests\JimmyLinqUnitTests.csproj", "{A9A72EB6-9149-4C21-9049-B906737C0FA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{4A730B90-05A7-4BC5-8BF4-AB4A7FB97498}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A730B90-05A7-4BC5-8BF4-AB4A7FB97498}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A730B90-05A7-4BC5-8BF4-AB4A7FB97498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9A72EB6-9149-4C21-9049-B906737C0FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A72EB6-9149-4C21-9049-B906737C0FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A72EB6-9149-4C21-9049-B906737C0FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A72EB6-9149-4C21-9049-B906737C0FA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

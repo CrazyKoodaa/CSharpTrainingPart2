@@ -2,7 +2,7 @@
 
 namespace jimmyLINQ
 {
-    enum PriceRange
+    public enum PriceRange
     {
         cheap,
         expensive,

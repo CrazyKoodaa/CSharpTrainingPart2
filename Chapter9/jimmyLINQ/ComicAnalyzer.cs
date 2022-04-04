@@ -4,11 +4,11 @@ using System.Linq;
 
 namespace jimmyLINQ
 {
-    class ComicAnalyzer
+    public static class ComicAnalyzer
     {
-        private static PriceRange CalculatePriceRange(Comic comic)
+        private static PriceRange CalculatePriceRange(Comic comic, IReadOnlyDictionary<int, decimal> prices)
         {
-            if (Comic.Prices[comic.Issue] < 100) return PriceRange.cheap;
+            if (prices[comic.Issue] < 100) return PriceRange.cheap;
             return PriceRange.expensive;
         }
 
@@ -16,8 +16,8 @@ namespace jimmyLINQ
         {
             return 
                 from comic in comics
-                orderby prices[comic.Issue] descending
-                group comic by CalculatePriceRange(comic) into priceGroup
+                orderby prices[comic.Issue] // descending
+                group comic by CalculatePriceRange(comic, prices) into priceGroup
                 select priceGroup;
 
         }
@@ -26,7 +26,7 @@ namespace jimmyLINQ
         {
             return 
                 from comic in comics
-                orderby comic.Issue descending
+                orderby comic.Issue //descending
                 join review in reviews on comic.Issue equals review.Issue
                 select $"{review.Critic} rated #{comic.Issue} '{comic.Name}' {review.Score:0.00}";
         }
