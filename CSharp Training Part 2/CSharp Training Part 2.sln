@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clowns", "..\Chapter9\Clown
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqAndLambda", "..\Chapter9\LinqAndLambda\LinqAndLambda.csproj", "{90898943-7295-445E-A4CC-93F26D36C7A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switchWithLINQExpressions", "..\Chapter9\switchWithLINQExpressions\switchWithLINQExpressions.csproj", "{25293E0C-2E91-43F2-9207-CC91B0EC9FF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{90898943-7295-445E-A4CC-93F26D36C7A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90898943-7295-445E-A4CC-93F26D36C7A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90898943-7295-445E-A4CC-93F26D36C7A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25293E0C-2E91-43F2-9207-CC91B0EC9FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25293E0C-2E91-43F2-9207-CC91B0EC9FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25293E0C-2E91-43F2-9207-CC91B0EC9FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25293E0C-2E91-43F2-9207-CC91B0EC9FF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
