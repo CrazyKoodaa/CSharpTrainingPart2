@@ -38,7 +38,8 @@ namespace jimmyLINQ
                     reviews,
                     review => review.Issue,
                     comic => comic.Issue,
-                    (comic, review) => $"{review.Critic} rated #{comic.Issue} '{comic.Name}' {review.Score:0.00}";
+                    (comic, review) => $"{review.Critic} rated #{comic.Issue} '{comic.Name}' {review.Score:0.00}"
+                    );
 
             var temp2 =
                 from comic in comics

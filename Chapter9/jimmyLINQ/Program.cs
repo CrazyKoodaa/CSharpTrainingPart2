@@ -14,12 +14,20 @@ namespace jimmyLINQ
             while (!done)
             {
                 Console.WriteLine("\nPress G to group comics by price, R to get reviews, any other key to quit\n");
+                done = Console.ReadKey(true).KeyChar.ToString().ToUpper() switch
+                {
+                    "G" => GroupComicsByPrice(),
+                    "R" => GetReviews(),
+                    _ => true,
+                };
+                /*
                 switch (Console.ReadKey(true).KeyChar.ToString().ToUpper())
                 {
                     case "G": done = GroupComicsByPrice(); break;
                     case "R": done = GetReviews(); break;
                     default: done = true; break;
                 }
+                */
             }
         }
 
