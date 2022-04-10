@@ -38,18 +38,27 @@ namespace Explore_the_Enumerable_class
         }
         class ManualSportSequence : IEnumerable<Sport>
         {
-            
+            public IEnumerator<Sport> GetEnumerator() { return new ManualSportEnumerator();}
+            System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() { return GetEnumerator(); }
+        }
 
+        class BetterSportSequence : IEnumerable<Sport>
+        {
             public IEnumerator<Sport> GetEnumerator()
             {
-                return new ManualSportEnumerator();
+                int maxEnumValue = Enum.GetValues(typeof(Sport)).Length - 1;
+                for (int i = 0; i <= maxEnumValue; i++) { yield return (Sport)i; }
             }
 
             System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
             {
                 return GetEnumerator();
             }
-           
+            public Sport this[int index]
+            {
+                get { return (Sport)index;   /* return the specified index here */ }
+                set { /* set the specified index to value here */ }
+            }
         }
         static void Main(string[] args)
         {
@@ -65,6 +74,11 @@ namespace Explore_the_Enumerable_class
 
             var sports = new ManualSportSequence();
             foreach (var sport in sports)
+                Console.WriteLine(sport);
+
+            var sportsBetter = new BetterSportSequence();
+            Console.WriteLine(sportsBetter[3]);
+            foreach (var sport in sportsBetter)
                 Console.WriteLine(sport);
         }
     }
