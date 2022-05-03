@@ -34,6 +34,12 @@ namespace CSharp_Training_Part_2
                     Suits.Hearts => 4,
                     _ => 2,
                 };
+
+                LINQ methods that take a Func<T1,T2> parameter can be called with a lambda that takes a T1 parameter and returns a T2 value
+                Use the => operator to create switch expressions, which are like switch statements that return a value.
+                Use yield return statements to create methods that return enumerable sequences.
+                When a method executes a yield return, it returns the next value in the sequence. The next time tihe method is called, it resumes execution at the next statement after the last yield return that was executed
+
             */
         }
     }
