@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yield return", "..\yield re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yield Return the Power of 2", "..\Yield Return the Power of 2\Yield Return the Power of 2.csproj", "{82641D1E-E525-4283-9097-6B85684D4E38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstTryWithStream", "..\Chapter10\FirstTryWithStream\FirstTryWithStream.csproj", "{097A12E6-00A9-4AC9-BBF4-98CBF3E36490}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstTryWithStream", "..\Chapter10\FirstTryWithStream\FirstTryWithStream.csproj", "{097A12E6-00A9-4AC9-BBF4-98CBF3E36490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryStuff", "..\Chapter10\DirectoryStuff\DirectoryStuff.csproj", "{609CC45A-8A28-4733-B568-B44DA82322AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{097A12E6-00A9-4AC9-BBF4-98CBF3E36490}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{097A12E6-00A9-4AC9-BBF4-98CBF3E36490}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{097A12E6-00A9-4AC9-BBF4-98CBF3E36490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{609CC45A-8A28-4733-B568-B44DA82322AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609CC45A-8A28-4733-B568-B44DA82322AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609CC45A-8A28-4733-B568-B44DA82322AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609CC45A-8A28-4733-B568-B44DA82322AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
