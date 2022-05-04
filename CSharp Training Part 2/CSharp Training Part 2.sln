@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryStuff", "..\Chapte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avoid filesystem errors with using statements", "..\Chapter10\Avoid filesystem errors with using statements\Avoid filesystem errors with using statements.csproj", "{C2E0B38E-E949-4E81-B856-27C63AFA16CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryStream", "..\Chapter10\MemoryStream\MemoryStream.csproj", "{A2B175D0-64F9-47DC-BEDB-E9B3F21F4F42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{C2E0B38E-E949-4E81-B856-27C63AFA16CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2E0B38E-E949-4E81-B856-27C63AFA16CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2E0B38E-E949-4E81-B856-27C63AFA16CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B175D0-64F9-47DC-BEDB-E9B3F21F4F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B175D0-64F9-47DC-BEDB-E9B3F21F4F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B175D0-64F9-47DC-BEDB-E9B3F21F4F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B175D0-64F9-47DC-BEDB-E9B3F21F4F42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
