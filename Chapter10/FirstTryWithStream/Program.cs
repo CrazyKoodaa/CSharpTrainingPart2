@@ -55,7 +55,7 @@ citizens of Objectville");
             var reader = new StreamReader($"{folder}{Path.DirectorySeparatorChar}secret_plan.txt");
             var writer = new StreamWriter($"{folder}{Path.DirectorySeparatorChar}emailToCaptainA.txt");
 
-
+             
             writer.WriteLine(@"To: CaptainAmazing@objectville.net
 From: Commissioner@objectville.net
 Subject: Can you save the day ... again?
@@ -74,24 +74,8 @@ We've discovered the Swindler's terrible plan:");
             reader.Close();
 
 
-            Console.WriteLine("\nReading from CryptoFile");
-            reader = new StreamReader($"{folder}{Path.DirectorySeparatorChar}secret.txt");
-            while (!reader.EndOfStream)
-            {
-                Console.WriteLine(reader.ReadLine());
-            }
-
-
-
-            crStream = new CryptoStream(stream, cryptic.CreateDecryptor(), CryptoStreamMode.Read);
-
-            StreamReader reader = new StreamReader(crStream);
-
-            string data = reader.ReadToEnd();
-
-            reader.Close();
-            stream.Close();
-
+        
+             
 
         }
     }
