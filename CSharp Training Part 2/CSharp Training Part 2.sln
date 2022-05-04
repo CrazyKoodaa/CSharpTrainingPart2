@@ -39,6 +39,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstTryWithStream", "..\Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryStuff", "..\Chapter10\DirectoryStuff\DirectoryStuff.csproj", "{609CC45A-8A28-4733-B568-B44DA82322AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avoid filesystem errors with using statements", "..\Chapter10\Avoid filesystem errors with using statements\Avoid filesystem errors with using statements.csproj", "{C2E0B38E-E949-4E81-B856-27C63AFA16CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{609CC45A-8A28-4733-B568-B44DA82322AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{609CC45A-8A28-4733-B568-B44DA82322AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{609CC45A-8A28-4733-B568-B44DA82322AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E0B38E-E949-4E81-B856-27C63AFA16CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E0B38E-E949-4E81-B856-27C63AFA16CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E0B38E-E949-4E81-B856-27C63AFA16CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E0B38E-E949-4E81-B856-27C63AFA16CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
