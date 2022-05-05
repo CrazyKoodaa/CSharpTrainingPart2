@@ -18,7 +18,7 @@ namespace JsonSerialization
                 new Guy() { Name = "Bob", Clothers = new Outfit() { Top = "t-shirt", Buttom = "jeans"}, Hair = new HairStyle() { Color = HairColor.Red, Length = 3.5f}},
                 new Guy() { Name = "Joe", Clothers = new Outfit() { Top = "polo", Buttom = "slacks"}, Hair = new HairStyle() { Color = HairColor.Gray, Length = 2.7f}},
             };
-
+                                                       
             var options = new JsonSerializerOptions() {  WriteIndented = true };
             var jsonString = JsonSerializer.Serialize(guys, options);
             Console.WriteLine(jsonString);

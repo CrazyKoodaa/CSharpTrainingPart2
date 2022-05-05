@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BinaryWriter": {
+      "commandName": "Project",
+      "commandLineArgs": "binarydata.dat"
+    }
+  }
+}
