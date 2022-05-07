@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "destruction", "..\Chapter11
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "structVsObjects", "..\Chapter11\structVsObjects\structVsObjects.csproj", "{05C55786-D655-4A6C-9CCC-38299E2D751F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "outParameters", "..\Chapter11\outParameters\outParameters.csproj", "{C4936A57-FBE3-40B7-A796-D793B8A687DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{05C55786-D655-4A6C-9CCC-38299E2D751F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05C55786-D655-4A6C-9CCC-38299E2D751F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05C55786-D655-4A6C-9CCC-38299E2D751F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4936A57-FBE3-40B7-A796-D793B8A687DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4936A57-FBE3-40B7-A796-D793B8A687DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4936A57-FBE3-40B7-A796-D793B8A687DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4936A57-FBE3-40B7-A796-D793B8A687DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
