@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoryStream", "..\Chapter1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonSerialization", "..\Chapter10\JsonSerialization\JsonSerialization.csproj", "{41B2D294-BE41-4FA7-9466-95EF8BEA9E42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryWriter", "..\Chapter10\BinaryWriter\BinaryWriter.csproj", "{38ADF397-7D69-4AE3-B81C-5B182D19690F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryWriter", "..\Chapter10\BinaryWriter\BinaryWriter.csproj", "{38ADF397-7D69-4AE3-B81C-5B182D19690F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "destruction", "..\Chapter11\destruction\destruction.csproj", "{227F1426-853B-4F0F-A3F0-861ADB87FDF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{38ADF397-7D69-4AE3-B81C-5B182D19690F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38ADF397-7D69-4AE3-B81C-5B182D19690F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38ADF397-7D69-4AE3-B81C-5B182D19690F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{227F1426-853B-4F0F-A3F0-861ADB87FDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{227F1426-853B-4F0F-A3F0-861ADB87FDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{227F1426-853B-4F0F-A3F0-861ADB87FDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{227F1426-853B-4F0F-A3F0-861ADB87FDF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
