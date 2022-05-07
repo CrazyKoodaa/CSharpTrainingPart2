@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "structVsObjects", "..\Chapt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "outParameters", "..\Chapter11\outParameters\outParameters.csproj", "{C4936A57-FBE3-40B7-A796-D793B8A687DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nullCoalescing", "..\Chapter11\nullCoalescing\nullCoalescing.csproj", "{766DB710-4A91-479B-B943-E18376ED7A4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{C4936A57-FBE3-40B7-A796-D793B8A687DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4936A57-FBE3-40B7-A796-D793B8A687DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4936A57-FBE3-40B7-A796-D793B8A687DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{766DB710-4A91-479B-B943-E18376ED7A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766DB710-4A91-479B-B943-E18376ED7A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766DB710-4A91-479B-B943-E18376ED7A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766DB710-4A91-479B-B943-E18376ED7A4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
